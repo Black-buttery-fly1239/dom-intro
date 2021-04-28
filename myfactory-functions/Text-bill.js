@@ -25,9 +25,7 @@ function textBill(){
     }
     
     function classTotal() {
-        // if(totalOne() >= 30.00 & totalOne < 50.00){
-        //     return "warning"
-        // }
+
         if(totalOne() >= 50.00){
             return "danger"
         }
